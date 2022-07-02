@@ -1,0 +1,70 @@
+  
+  #example3 {
+    border: 2px solid blue;
+    padding: 25px;
+    background-image: url(https://images.pexels.com/photos/255419/pexels-photo-255419.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+     width: 100%;
+    position: relative;
+    
+  }
+
+  
+  #text{
+    background: blue;
+    opacity: .5;
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    width: 500px;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    
+  }
+
+  a {
+    font-size: 3em;
+  }
+  
+  a:visited {
+    color: green;
+    outline-color: purple;
+  }
+  
+  .my_div {
+    background-color: black;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .my_div:hover {
+    background: url("https://www.espoch.edu.ec/images/header/logo_espoch.png");
+    background-repeat: no-repeat;
+  }
+  
+  
+  
+  .my_div2 {
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .my_div2:hover {
+    background-color: red;
+  }
+  
+  
+  
+  .my_div2:active {
+    background: url("https://www.espoch.edu.ec/images/header/logo_espoch.png");
+    background-repeat: no-repeat;
+  }
+
+  #example3{
+    
+  }
