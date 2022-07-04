@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="El Rey león" content="Peliculas de Disney">
+    <link rel="stylesheet" href="/css/estilos1.css">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+    <title>El Rey león - Disney</title>
+</head>
+<body>
+    <header>
+		<div class="contenedor">
+			<a href="/index.html">
+				<img src="/img/Disney-logo.png" alt="disney">
+			</a>
+            
+			<nav>
+				<a href="/index.html" class="activo">Inicio</a>
+				<a href="https://www.disneyplus.com/es-ec?cid=DTCI-Synergy-DDN-Site-Acquisition-ESSustain-ES-DisneyPlus-DisneyPlus-ES-NavLink-Disney.es_Sustain_navbar-NA">Más Información</a>
+				<a href="https://disney.es/disney-plus-star">Disney+ presenta Star</a>
+				<a href="https://disney.es/que-ver-en-disney-plus-en-julio-2022">Novedades en Disney+</a>
+			</nav>
+		</div>
+	</header>
+    <main>
+		<div class="pelicula-principal">
+            <div class="imagen"><img src="/img/8.jpg" alt=""></div>
+			<div class="descripcion">
+				<h2 class="titulo">El Rey león</h2>
+				<p class="descripcion">
+					Simba es el hijo del rey de los leones, Mufasa, y heredero de todo el reino. Pero cuando su padre es brutalmente asesinado por su tío Scar, decidirá huir, dejando vía libre para que su tío tome el puesto de su padre como líder de la manada. En su camino, Simba se encuentra con el suricato Timón y el jabalí Pumba, que le enseñarán a vivir la vida sin preocupaciones. Pero el joven león se verá obligado a decidir entre su vida libre de problemas o su destino como rey .
+				</p>
+				<h3 class="subtitulo">Dirigida por</h3>
+				<p class="descripcion">
+					Jon Favreau
+				</p>
+				<h3 class="subtitulo">Producida por</h3>
+				<p class="descripcion">
+					Jon Favreau, Jeffrey Silver, Karen Gilchrist
+				</p>
+				<h3 class="subtitulo">Reparto</h3>
+				<p class="descripcion">
+					Miguel poison, Miguel Ángel Jenner, Carlos Di Blasi, Esther Solans, Alberto Mieza, Juan Fernández, Eduard Doncos, Noemí Bayarri, Hernán Fernández, Claudio Domingo, Álvaro Balas, Alejandra Silvela, Laura Monedero, Pedro Tena
+				</p>
+
+				<button role="button" class="boton" id="btn-abrir-popup" onclick="toogle();"><i class="fas fa-play"></i>Ver tráiler</button>
+				<a href="https://www.disneyplus.com/en-gb/movies/the-lion-king/gDBvSe4GpZPD?cid=DTCI-Synergy-DDN-Site-Acquisition-ESSustain-ES-Disney-LionKing-ES-DetailsPage-Disney.es_Sustain_topherobanner-scp-movies-disney-the-lion-king-la-NA">
+				<button role="button" class="boton"><i class="fas fa-info-circle"></i>Más información</button></a>
+			</div>
+		</div>
+
+		<div class="trailer" id="trailer">
+			<iframe width="100%" height="80%" src="https://www.youtube.com/embed/mb79ctR-E-c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<a href="ReyLeon.html" id="btn-cerrar-popup" class="btn-cerrar-popup" onclick="toogle();"><i class="fas fa-times"></i></a>
+		</div>
+	</main>
+
+	<footer class="pie">
+		<div class="social-networks">
+			<h3 class="seguir">Sigue a Disney en:</h3>
+			<a href="https://www.facebook.com/Disney" class="facebook"><i class="fab fa-facebook-f"></i></a>
+			<a href="https://www.instagram.com/disney/?fbclid=IwAR00NtNCt5q-VRu5GfePNlV9cIYCcRZRZ7cyBr2Y8-zN4H1AwMSTF_XSarM" class="instagram"><i class="fab fa-instagram"></i></a>
+			<a href="https://twitter.com/DisneySpain" class="twitter"><i class="fab fa-twitter"></i></a>
+			<a href="https://www.youtube.com/user/DisneyChannelLA" class="youtube"><i class="fab fa-youtube"></i></a>
+			<div class="Disney">
+				<img src="/img/disney.png" alt="" width="220px" height="150px"/>
+			</div>
+		</div>
+	</footer>
+
+	<script src="/js/code.js"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+</body>
+</html>
