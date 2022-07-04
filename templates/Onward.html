@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Onward" content="Peliculas de Disney">
+    <link rel="stylesheet" href="/css/estilos1.css">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+    <title>Onward-Disney</title>
+</head>
+<body>
+    <header>
+		<div class="contenedor">
+            <img src="/img/Disney-logo.png" alt="">
+			<nav>
+				<a href="/peliculasDisney.html" class="activo">Inicio</a>
+				<a href="https://www.disneyplus.com/es-ec?cid=DTCI-Synergy-DDN-Site-Acquisition-ESSustain-ES-DisneyPlus-DisneyPlus-ES-NavLink-Disney.es_Sustain_navbar-NA">Más Información</a>
+				<a href="https://disney.es/disney-plus-star">Disney+ presenta Star</a>
+				<a href="https://disney.es/que-ver-en-disney-plus-en-julio-2022">Novedades en Disney+</a>
+			</nav>
+		</div>
+	</header>
+    <main>
+		<div class="pelicula-principal">
+            <div class="imagen"><img src="/img/3.jpg" alt=""></div>
+			<div class="descripcion">
+				<h2 class="titulo">Onward</h2>
+				<p class="descripcion">
+					Ambientado en un mundo de fantasía suburbana, dos hermanos elfos adolescentes, Ian y Barley Lightfood, se embarcan en una aventura en la que se proponen descubrir si existe aún algo de magia en el mundo que les permita pasar un último día con su padre, que falleció cuando ellos eran aún muy pequeños como para poder recordarlo.
+				</p>
+				<h3 class="subtitulo">Dirigida por</h3>
+				<p class="descripcion">
+					Dan Scanlon
+				</p>
+				<h3 class="subtitulo">Producida por</h3>
+				<p class="descripcion">
+					Kori Rae
+				</p>
+				<h3 class="subtitulo">Reparto</h3>
+				<p class="descripcion">
+					Mario García, Guillermo Romero, María Antonia Rodríguez, Isabel Donate, Juan Amador Pulido, Miguel Ángel Montero, Ana Richart, Gema Martín, Chelo Vivares, Ana Ángeles García, Txema Moscoso, David García, Jordi Galán, Néstor Moreno, Nacho Aramburu, Miquel Rodríguez, Yolanda Portillo, Marta Almazán, Juan Palacios, Isabel Abengozar
+				</p>
+
+				<button role="button" class="boton" id="btn-abrir-popup" onclick="toogle();"><i class="fas fa-play"></i>Ver tráiler</button>
+				<a href="https://www.disneyplus.com/en-gb/movies/onward/xVcGOSq9BY21?cid=DTCI-Synergy-DDN-Site-Acquisition-ESSustain-ES-Pixar-Onward-ES-DetailsPage-Disney.es_Sustain_topherobanner-scp-movies-pixar-onward-NA">
+				<button role="button" class="boton"><i class="fas fa-info-circle"></i>Más información</button></a>
+			</div>
+		</div>
+
+		<div class="trailer" id="trailer">
+			<iframe width="100%" height="80%" src="https://www.youtube.com/embed/_9ULoCgJ3-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<a href="Onward.html" id="btn-cerrar-popup" class="btn-cerrar-popup" onclick="toogle();"><i class="fas fa-times"></i></a>
+		</div>
+	</main>
+
+	<footer class="pie">
+		<div class="social-networks">
+			<h3 class="seguir">Sigue a Disney en:</h3>
+			<a href="https://www.facebook.com/Disney" class="facebook"><i class="fab fa-facebook-f"></i></a>
+			<a href="https://www.instagram.com/disney/?fbclid=IwAR00NtNCt5q-VRu5GfePNlV9cIYCcRZRZ7cyBr2Y8-zN4H1AwMSTF_XSarM" class="instagram"><i class="fab fa-instagram"></i></a>
+			<a href="https://twitter.com/DisneySpain" class="twitter"><i class="fab fa-twitter"></i></a>
+			<a href="https://www.youtube.com/user/DisneyChannelLA" class="youtube"><i class="fab fa-youtube"></i></a>
+			<div class="Disney">
+				<img src="/img/disney.png" alt="" width="220px" height="150px"/>
+			</div>
+		</div>
+	</footer>
+
+	<script src="/js/code.js"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+</body>
+</html>
